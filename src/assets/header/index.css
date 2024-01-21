@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    background: var(--Main, #5361E4);
+    display: flex;
+    padding: 17px 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.logo{
+    margin-left: 40px;
+    font-size: 24px;
+    width: 100px;
+    color: white;
+}
+.header_nav{
+    gap: 48px;
+}
+.list{
+    padding: 0px;
+    width: 100%;
+    border: none;
+    color: white;
+}
+.buttonsHeader{
+    margin-top: 0px;
+    color: #5361E4 !important;
+}
+color{
+    color: #5361E4 !important;
+}
+.change{
+    padding: 0px;
+    background-color: transparent !important;
+    color: white !important;
+}
