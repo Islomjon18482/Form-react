@@ -1,0 +1,113 @@
+form{
+    margin: 0px auto;
+    display: flex;
+    padding: 32px 38px;
+    flex-direction: column;
+    width: 778px;
+    background: #FFF;
+    border-radius: 24px;
+}
+.error, .errorEmail, .errorPhone, .errorCountry, .errorCity, .errorLocation, .errorNum{
+    display: none;
+    color: red;
+}
+li{
+    cursor: pointer;
+    display: flex;
+    width: 60px;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #E3E3E3;
+    border-radius: 12px;
+}
+.img p{
+    cursor: pointer;
+    color: var(--Mai, #5361E4);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.location{
+    width: 702px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.location input{
+    width: 341px;
+}
+textarea{
+    resize: none;
+    display: flex;
+    width: 702px;
+    height: 148px;
+    padding: 18px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #E3E3E3;
+    border-radius: 16px;
+}
+body{
+    background-color: #B3B3B3;
+}
+h2{
+    color: var(--Dark, #2A2941);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 16px; 
+}
+p{
+    color: var(--30-black, #B3B3B3);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 130%; 
+}
+ul{
+    gap: 8px;
+    list-style-type: none;
+    display: flex;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buttons button{
+    cursor: pointer;
+    display: flex;
+    width: 179.841px;
+    height: 60px;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #F8F8F8;
+    border-radius: 16px;
+    color: var(--Gray, #6E6D77);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+}
+.buttons .next{
+    background: var(--Mai, #5361E4);
+    border-radius: 16px;
+    color: var(--White, #FFF);
+}
+.buttons{
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+}

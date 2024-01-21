@@ -1,0 +1,31 @@
+span{
+    color: var(--Dark, #2A2941);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+span span{
+    color: var(--Dark, #FF2424);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+input{
+    display: flex;
+    width: 702px;
+    height: 56px;
+    padding: 18px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #E3E3E3;
+    border-radius: 16px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
